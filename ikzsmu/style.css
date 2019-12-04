@@ -1,0 +1,12 @@
+.szoveg {
+    background-color: gray ;
+    text-align: center;
+    text-decoration-color: darkgray;
+}
+.belep {
+    left: 500px;
+    top: 300px;
+    right: 450px;
+    position: absolute;
+    padding: 10px 30px 10px 30px ;
+}
