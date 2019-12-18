@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Kezdolap</title>
+    <link rel="stylesheet" href="bootstrap-4.4.1-dist/css/bootstrap.css" type="text/css">
     <link rel="stylesheet" href="style.css" type="text/css">
 </head>
 <body class="torzs">
@@ -12,12 +13,24 @@
         <h2>Tisztelt latogató!</h2>
         <p>valami</p><br>
     </div>
-    <div class="belep">
-    <form action="igazol.html" method="post">
-        OM azonosító: <input type="text" name="OM_ID" id="om_ID"><br>
-        Születési dátum: <input type="password" name="BIRTH_DATE" id="BIRTH_DATE"><br>
-        <input type="submit" value="Mehet!" >
-    </form>
-</div>
+    <form action="" method="POST">
+            <div class="form-row">
+                <div class="form-group">
+                    <label class="col-sm-10 col-form-label">OM</label>
+                    <div class="col-sm-10">
+                        <input type="text" name="OM_id" class="form-control">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label class="col-sm-10 col-form-lable">Szul. datum</label>
+                    <div class="col-sm-10">
+                        <input type="password" name="birth_date" class="form-control">
+                    </div>
+                </div>
+            </div>
+            <div class="">
+                <input type="submit" value="Bejelentkezes" >
+            </div>
+        </form>
 </body>
 </html>
