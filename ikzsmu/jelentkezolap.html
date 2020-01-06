@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="bootstrap-4.4.1-dist/css/bootstrap.css" type="text/css">
 </head>
 <body>
-    <div class="container-fluid">
+    <div class="container">
         <div class="row">
             <div class="col">
                 <form action="idopont.html">
@@ -18,38 +18,46 @@
                     </div>
                     <div class="form-row">
                         <div class="form-group col-4">
-                            <input type="text" class="form-control" placeholder="Vezeteknév">
+                            <label for="veznev">Vezetéknév: </label>
+                            <input type="text" class="form-control" id="veznev">
                         </div>
                         <div class="form-group col-4">
-                            <input type="text" class="form-control" placeholder="Utónév">
+                            <label for="utnev">Utónév: </label>
+                            <input type="text" class="form-control" id="utnev">
                         </div>
                     </div>
                     <div class="form-row">
                         <div class="form-group col-3">
-                            <input type="text" class="form-control" placeholder="Oktatási azonosító">
+                            <label for="OM">Oktatási azonosító: </label>
+                            <input type="text" class="form-control" id="OM">
                         </div>
                     </div>
                     <div class="form-row">
                         <div class="form-group col-4">
-                            <input type="text" class="form-control" placeholder="Anyja neve">
+                            <label for="anyjanev">Anyja neve: </label>
+                            <input type="text" class="form-control" id="anyjanev">
                         </div>
                     </div>
                     <div class="form-row">
                         <div class="form-group col-4">
-                            <input type="text" class="form-control" placeholder="Születési helye">
+                            <label for="szulhely">Születési hely: </label>
+                            <input type="text" class="form-control" id="szulhely">
                         </div>
                         <div class="form-group col-4">
-                            <input type="date" class="form-control">
+                            <label for="szuldatum">Születési dátum: </label>
+                            <input type="date" class="form-control" id="szuldatum">
                         </div>
                     </div>
                     <div class="form-row">
                         <div class="form-group col-4">
-                            <input type="tel" class="form-control" pattern="[0-9]{2}-[0-9]{3}-[0-9]{4}" placeholder="00-123-4567">
+                            <label for="telszam">Telefonszám: </label>
+                            <input type="tel" class="form-control" pattern="[0-9]{2}-[0-9]{3}-[0-9]{4}" placeholder="00-123-4567" id="telszam">
                         </div>
                     </div>
                     <div class="form-row">
                         <div class="form-group col-6">
-                            <input type="email" class="form-control" placeholder="valaki@valami.hu">
+                            <label for="email">E-mail:</label>
+                            <input type="email" class="form-control" placeholder="valaki@valami.hu" id="email">
                         </div>
                     </div>
                     <div class="form-row ">

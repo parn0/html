@@ -9,62 +9,54 @@
     <link rel="stylesheet" href="bootstrap-4.4.1-dist/css/bootstrap.css" type="text/css">
 </head>
 <body>
-    <div class="container-fluid">
+    <div class="container">
         <div class="row">
-            <div class="col align-self-center">
+            <div class="col-12">
                 <p class="text-left">Valasz Időpontot</p>
-                <form>
-                    <div class="form-row"></div>
-                    <div class="form-row">
-                        <div class="form-check ">
-                            <input type="radio" class="form-check-input">
-                            <label for="foglalas1" class="form-check-label">elso</label>
+                <form action="osszesitettadat.html">
+                    <fieldset class="form-group">
+                    
+                            <div class="form-row">
+                                <div class="form-check ">
+                                    <input type="radio" class="form-check-input">
+                                    <label for="foglalas1" class="form-check-label">elso</label>
+                                </div>
+                            </div>
+                            <div class="form-row">
+                                <div class="form-check ">
+                                    <input type="radio" class="form-check-input">
+                                    <label for="foglalas2" class="form-check-label">masodik</label>
+                                </div>
+                            </div>
+                            <div class="form-row">
+                                <div class="form-check ">
+                                    <input type="radio" class="form-check-input">
+                                    <label for="foglalas3" class="form-check-label">harmadik</label>
+                                </div>
+                            </div>
+                            <div class="form-row">
+                                <div class="form-check ">
+                                    <input type="radio" class="form-check-input">
+                                    <label for="foglalas4" class="form-check-label">negyedik</label>
+                                </div>
+                            </div>
+                        </fieldset>
+                    <fieldset class="form-group">
+                        <div class="row justify-content-around">
+                            <div class="col-6">
+                                <a href="jelentkezolap.html" class="btn btn-primary" role="button">Vissza!</a>
+                            </div>
+                            <div class="col align-self-end">
+                                <button type="submit" class="btn btn-primary">Tovább!</button>
+                            </div>
                         </div>
-                    </div>
-                    <div class="form-row">
-                        <div class="form-check ">
-                            <input type="radio" class="form-check-input">
-                            <label for="foglalas2" class="form-check-label">masodik</label>
-                        </div>
-                    </div>
-                    <div class="form-row">
-                        <div class="form-check ">
-                            <input type="radio" class="form-check-input">
-                            <label for="foglalas3" class="form-check-label">harmadik</label>
-                        </div>
-                    </div>
-                    <div class="form-row">
-                        <div class="form-check ">
-                            <input type="radio" class="form-check-input">
-                            <label for="foglalas4" class="form-check-label">negyedik</label>
-                        </div>
-                    </div>
+                    </fieldset>
                 </form>
                 <div class="row">
-                    <div class="col-6">
+                    <div class="col-12">
                         <div class="alert alert-warning" role="alert">
-                            Időpont foglalt! Kérjük válassz másikat!
+                            <p class="text-center">Időpont foglalt! Kérjük válassz másikat!</p>
                         </div>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-6">
-                        <form action="jelentkezolap.html">
-                            <div class="form-row">
-                                <div class="col align-self-start">
-                                    <button type="submit" class="btn btn-primary">Vissza!</button>
-                                </div>
-                            </div>
-                        </form>
-                    </div>
-                    <div class="col-6">
-                        <form action="osszesitettadat.html">
-                            <div class="form-row ">
-                                <div class="col align-self-end">
-                                    <button type="submit" class="btn btn-primary">Tovább!</button>
-                                </div>
-                            </div>
-                        </form>
                     </div>
                 </div>
             </div>
